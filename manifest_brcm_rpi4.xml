@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/" />
+
+  <!-- Raspberry Pi -->
+  <remove-project name="kernel/common" />
+  <project path="common" name="raspberry-vanilla/android_kernel_brcm_rpi4" remote="github" revision="android-14.0" />
+  <project path="vendor/brcm" name="raspberry-vanilla/proprietary_vendor_brcm" remote="github" revision="android-14.0" />
+
+</manifest>
