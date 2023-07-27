@@ -5,7 +5,7 @@
 2. Initialize repo:
 
 ```
-repo init -u https://android.googlesource.com/kernel/manifest -b common-android14-6.1
+repo init -u https://android.googlesource.com/kernel/manifest -b common-android13-5.15-lts
 curl --create-dirs -L -o .repo/local_manifests/manifest_brcm_rpi4.xml -O -L https://raw.githubusercontent.com/raspberry-vanilla/android_kernel_manifest/android-14.0/manifest_brcm_rpi4.xml
 ```
 
