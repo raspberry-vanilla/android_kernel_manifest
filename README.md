@@ -6,7 +6,7 @@
 
 ```
 repo init -u https://android.googlesource.com/kernel/manifest -b common-android12-5.10-lts
-curl --create-dirs -L -o .repo/local_manifests/manifest_brcm_rpi4.xml -O -L https://raw.githubusercontent.com/raspberry-vanilla/android_kernel_manifest/android-12.1/manifest_brcm_rpi4.xml
+curl -o .repo/local_manifests/manifest_brcm_rpi4.xml -L https://raw.githubusercontent.com/raspberry-vanilla/android_kernel_manifest/android-12.1/manifest_brcm_rpi4.xml --create-dirs
 ```
 
 3. Sync source code:

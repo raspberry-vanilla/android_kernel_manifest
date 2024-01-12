@@ -4,7 +4,7 @@
 
   <!-- Raspberry Pi -->
   <remove-project name="kernel/common" />
-  <project path="common" name="raspberry-vanilla/android_kernel_brcm_rpi4" remote="github" revision="android-12.1" />
+  <project path="common" name="raspberry-vanilla/android_kernel_brcm_rpi" remote="github" revision="android-12.1" />
   <project path="vendor/brcm" name="raspberry-vanilla/proprietary_vendor_brcm" remote="github" revision="android-12.1" />
 
 </manifest>
