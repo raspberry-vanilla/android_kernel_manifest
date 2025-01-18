@@ -29,4 +29,4 @@ tools/bazel build --config=fast --config=stamp //common:rpi5
 
 Compiled kernel Image, dtbs, and overlays can be found in `bazel-bin/common/rpi4/arch/arm64/boot` or `bazel-bin/common/rpi5/arch/arm64/boot` directory.
 
-Replace existing files in `device/brcm/rpi4-kernel` or `device/brcm/rpi5-kernel` directory of the Android source tree to include them in Android 14 build. You can also replace existing files in the boot partition of Raspberry Pi 4 or Raspberry Pi 5 Android 15 image.
+Replace existing files in `device/brcm/rpi4-kernel` or `device/brcm/rpi5-kernel` directory of the Android source tree to include them in Android 15 build. You can also replace existing files in the boot partition of Raspberry Pi 4 or Raspberry Pi 5 Android 15 image.
