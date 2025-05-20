@@ -5,7 +5,7 @@
 2. Initialize repo:
 
 ```
-repo init -u https://android.googlesource.com/kernel/manifest -b common-android16-6.12
+repo init -u https://android.googlesource.com/kernel/manifest -b common-android16-6.12-lts
 curl -o .repo/local_manifests/manifest_brcm_rpi.xml -L https://raw.githubusercontent.com/raspberry-vanilla/android_kernel_manifest/android-16.0/manifest_brcm_rpi.xml --create-dirs
 ```
 
